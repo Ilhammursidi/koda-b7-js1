@@ -23,7 +23,8 @@ const obj = {
 console.log(obj.str[1][2][3].koda[0].tech["academy"])
 
 const my = [{
-    very : {"best":[{},{sport:[{is : "Football"}]}],}
+    very : {"best":[{},{sport:{is : "Football"}}],}
 }]
+
 
 console.log(my[0].very["best"][1].sport.is)
